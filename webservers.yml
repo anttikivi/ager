@@ -1,0 +1,15 @@
+---
+- name: Check the variables
+  ansible.builtin.import_playbook: variable-check.yml
+  vars:
+    playbook: webservers.yml
+
+- name: Test connection and determine the remote users
+  hosts: "webservers:&{{ env }}"
+  gather_facts: false
+  roles:
+    - role: connection
+      tags:
+        - connection
+        - always
+# vi:ft=yaml.ansible
