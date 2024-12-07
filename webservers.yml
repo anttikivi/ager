@@ -20,4 +20,7 @@
     - role: common
       tags:
         - common
+    - role: fail2ban
+      tags:
+        - fail2ban
 # vi:ft=yaml.ansible
