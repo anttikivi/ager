@@ -28,7 +28,7 @@
       WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!
 
       If this change in host keys is expected (e.g., if you rebuilt the server
-      or if Agricola  made changes recently), then run the following command to
+      or if Agricola made changes recently), then run the following command to
       clear the old host key from your known_hosts.
 
         ssh-keygen -R {{ connection_status.stdout | regex_replace('(.|\n)*host key for (.*) has changed(.|\n)*', '\2') }}
