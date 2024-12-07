@@ -12,4 +12,12 @@
       tags:
         - connection
         - always
+
+- name: Install server stack
+  hosts: "webservers:&{{ env }}"
+  become: true
+  roles:
+    - role: common
+      tags:
+        - common
 # vi:ft=yaml.ansible

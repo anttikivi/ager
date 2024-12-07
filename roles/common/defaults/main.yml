@@ -1,0 +1,4 @@
+---
+common_apt_packages:
+  git: "{{ apt_package_state }}"
+# vi: ft=yaml.ansible
