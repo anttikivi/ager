@@ -1,0 +1,9 @@
+{
+  "reportMissingParameterType": false,
+  "reportMissingTypeStubs": false,
+  "reportUnannotatedClassAttribute": false,
+  "reportUnknownArgumentType": false,
+  "reportUnknownMemberType": false,
+  "reportUnknownParameterType": false,
+  "reportUnknownVariableType": false
+}
