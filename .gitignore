@@ -1,2 +1,5 @@
 # Ignore the temporary testing environment.
 staging/
+
+# TODO: These will be enabled after testing.
+hosts/
