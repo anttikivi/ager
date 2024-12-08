@@ -1,0 +1,6 @@
+---
+# TODO: Consider whether ferm should be installed.
+- name: Print the ferm TODO message
+  ansible.builtin.debug:
+    msg: "TODO: Consider whether ferm should be installed."
+# vi: ft=yaml.ansible

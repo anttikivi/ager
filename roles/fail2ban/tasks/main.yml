@@ -1,6 +1,6 @@
 ---
 # TODO: Consider whether fail2ban should be installed.
-- name: Print the TODO message
+- name: Print the fail2ban TODO message
   ansible.builtin.debug:
     msg: "TODO: Consider whether fail2ban should be installed."
 # vi: ft=yaml.ansible

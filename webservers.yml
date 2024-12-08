@@ -23,4 +23,7 @@
     - role: fail2ban
       tags:
         - fail2ban
+    - role: ferm
+      tags:
+        - ferm
 # vi:ft=yaml.ansible
